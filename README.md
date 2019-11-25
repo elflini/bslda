@@ -10,7 +10,6 @@ Sparse linear discriminant analysis using network-guided block covariance matrix
 library(bslda)
 package?bslda
 class?bslda
-vignette("bslda")
 ```
 
 Installation
