@@ -1,11 +1,10 @@
-# PALMER
+# bslda
 <!--
-PALMER: A Constrained Biclustering Algorithm to Improve Pathway Annotation Based on the Biomedical Literature Mining
+Sparse Linear Discriminant Analysis using Network-Guided Block Covariance Matrix
 -->
 
-PALMER (a constrained biclustering algorithm to improve **P**athway **A**nnotation based on the biomedical **L**iterature **M**ining) is a constrained biclustering approach that allows to identify indirect relationships among genes based on the text mining of biomedical literature, which allows researchers to utilize prior biological knowledge to guide identification of gene-gene associations.
-'palmer' package provides computationally efficient and user friendly interface to fit the PALMER models. 
-[The 'palmer' vignette](https://github.com/dongjunchung/chunglab_binary_packages/blob/master/palmer.pdf?raw=true) provides a good start point for the step-by-step data analysis using 'palmer' package.The following help pages provide a good start point for the genetic analysis using the 'GPA' package, including the overview of 'GPA' package and the example command lines:
+Sparse linear discriminant analysis using network-guided block covariance matrix (bslda), which allows researchers to utilize prior network information to guide structure of covariance matrix.
+'bslda' package provides computationally efficient and user friendly interface to fit the bslda models. 
 
 ```
 library(bslda)
@@ -25,17 +24,16 @@ Windows binary: [https://github.com/dongjunchung/chunglab_binary_packages/blob/m
 
 Mac OS/X binary: [comming soon](https://?raw=true)
 
-To install the developmental versions of 'palmer' package, it's easiest to use the 'devtools' package.
+To install the developmental versions of 'bslda' package, it's easiest to use the 'devtools' package.
 
 ```
 #install.packages("devtools")
 library(devtools)
-install_github("dongjunchung/palmer", build_vignettes= TRUE)
+install_github("elflini/bslda")
 ```
 
 References
 ==========
-Nam JH, Kim D, and Chung D (2019) ''Sparse linear discrimintn analysis
-using network-guided block covariance matrix''.
+Nam JH, Kim D, and Chung D (2019) ''Sparse linear discrimintn analysis using network-guided block covariance matrix''.
 
 
