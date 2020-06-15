@@ -3,3 +3,4 @@
 export(bslda)
 exportMethods(predict)
 exportMethods(coeff)
+import(ggplot2)
