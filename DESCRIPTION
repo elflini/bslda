@@ -7,5 +7,5 @@ Maintainer: Jin Hyun Nam <elflini@gmail.com>
 Description: This package provides funtions for Sparse LDA using Network-Guided Block Covariance Matrix
 License: GPL (>=2)
 Encoding: UTF-8
-Depends: elasticnet
-LazyData: true
+Imports: elasticnet
+#LazyData: true
